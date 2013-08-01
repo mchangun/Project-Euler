@@ -34,4 +34,9 @@ tableWords = genTableWords()
 nchar(toWords(342))
 nchar(toWords(115))
 
+sum(nchar(sapply(1:9, toWords)))
+sum(nchar(sapply(10:19, toWords)))
+sum(nchar(sapply(20:99, toWords)))
 sum(nchar(sapply(100:999, toWords)))
+
+sum(nchar(sapply(1:1000, toWords)))

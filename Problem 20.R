@@ -1,0 +1,5 @@
+library(gmp)
+nums = as.bigz(1:100)
+ans = as.character(prod(nums))
+ans = sum(as.numeric(substring(ans, 1:nchar(ans), 1:nchar(ans))))
+print(ans)
