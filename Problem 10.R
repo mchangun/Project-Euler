@@ -1,3 +1,5 @@
+# Sieve of Eratosthenes
+
 n = 2e6
 tbl <- matrix(c(NA, 2:n, rep(1,n)), ncol=2)
 tbl[1,2] = 0
